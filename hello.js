@@ -47,3 +47,7 @@ else if(subjectNumber <=39 && subjectNumber >=33){
 else{
     console.log('Fail');
 }
+var friendsAge = [12, 14, 15, 18];
+console.log (friendsAge[3]);
+friendsAge.unshift(2,20);
+console.log (friendsAge);
